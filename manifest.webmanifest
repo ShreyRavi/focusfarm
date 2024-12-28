@@ -1,7 +1,7 @@
 {
   "name": "Focus Farm",
   "short_name": "Focus Farm",
-  "id": "com.example.focusfarm",
+  "id": "com.redsa.focusfarm",
   "description": "",
   "orientation": "portrait",
   "start_url": "./index.html",
