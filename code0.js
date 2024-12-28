@@ -342,39 +342,32 @@ gdjs.Focus_32FarmCode.eventsList1(runtimeScene);
 }
 
 
-};gdjs.Focus_32FarmCode.userFunc0x97a2c8 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Focus_32FarmCode.userFunc0x8ed4d0 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
-// unlock audio context
-let ctx = new AudioContext();
+// Create the root video element
+var video = document.createElement('video');
+video.setAttribute('loop', '');
+video.setAttribute('style', 'position: fixed; display: none;');
+function addSourceToVideo(element, type, dataURI) {
+    var source = document.createElement('source');
+    source.src = dataURI;
+    source.type = 'video/' + type;
+    element.appendChild(source);
+}
 
-// create silent sound
-let bufferSize = 2 * ctx.sampleRate, 
-    emptyBuffer = ctx.createBuffer(1, bufferSize, ctx.sampleRate), 
-    output = emptyBuffer.getChannelData(0);
-
-// fill buffer
-for(let i = 0; i < bufferSize; i++) 
-    output[i] = 0;
-
-// create source node
-let source = ctx.createBufferSource();
-source.buffer = emptyBuffer;
-source.loop = true;
-
-// create destination node
-let node = ctx.createMediaStreamDestination();
-source.connect(node);
-
-// dummy audio element
-let audio = document.createElement("audio");
-audio.style.display = "none";
-document.body.appendChild(audio);
-
-// set source and play
-audio.srcObject = node.stream;
-audio.play();
-
-// background exec enabled
+// A helper to concat base64
+var base64 = function(mimeType, base64) {
+    return 'data:' + mimeType + ';base64,' + base64;
+};
+addSourceToVideo(video,'webm', base64('video/webm', 'GkXfo0AgQoaBAUL3gQFC8oEEQvOBCEKCQAR3ZWJtQoeBAkKFgQIYU4BnQI0VSalmQCgq17FAAw9CQE2AQAZ3aGFtbXlXQUAGd2hhbW15RIlACECPQAAAAAAAFlSua0AxrkAu14EBY8WBAZyBACK1nEADdW5khkAFVl9WUDglhohAA1ZQOIOBAeBABrCBCLqBCB9DtnVAIueBAKNAHIEAAIAwAQCdASoIAAgAAUAmJaQAA3AA/vz0AAA='));
+addSourceToVideo(video, 'mp4', base64('video/mp4', 'AAAAHGZ0eXBpc29tAAACAGlzb21pc28ybXA0MQAAAAhmcmVlAAAAG21kYXQAAAGzABAHAAABthADAowdbb9/AAAC6W1vb3YAAABsbXZoZAAAAAB8JbCAfCWwgAAAA+gAAAAAAAEAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIVdHJhawAAAFx0a2hkAAAAD3wlsIB8JbCAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAIAAAACAAAAAABsW1kaWEAAAAgbWRoZAAAAAB8JbCAfCWwgAAAA+gAAAAAVcQAAAAAAC1oZGxyAAAAAAAAAAB2aWRlAAAAAAAAAAAAAAAAVmlkZW9IYW5kbGVyAAAAAVxtaW5mAAAAFHZtaGQAAAABAAAAAAAAAAAAAAAkZGluZgAAABxkcmVmAAAAAAAAAAEAAAAMdXJsIAAAAAEAAAEcc3RibAAAALhzdHNkAAAAAAAAAAEAAACobXA0dgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAIAAgASAAAAEgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABj//wAAAFJlc2RzAAAAAANEAAEABDwgEQAAAAADDUAAAAAABS0AAAGwAQAAAbWJEwAAAQAAAAEgAMSNiB9FAEQBFGMAAAGyTGF2YzUyLjg3LjQGAQIAAAAYc3R0cwAAAAAAAAABAAAAAQAAAAAAAAAcc3RzYwAAAAAAAAABAAAAAQAAAAEAAAABAAAAFHN0c3oAAAAAAAAAEwAAAAEAAAAUc3RjbwAAAAAAAAABAAAALAAAAGB1ZHRhAAAAWG1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAG1kaXJhcHBsAAAAAAAAAAAAAAAAK2lsc3QAAAAjqXRvbwAAABtkYXRhAAAAAQAAAABMYXZmNTIuNzguMw=='));
+document.body.appendChild(video);
+var playFn = function() {
+    video.play();
+    document.body.removeEventListener('touchend', playFn);
+};
+playFn();
+document.body.addEventListener('touchend', playFn);
 };
 gdjs.Focus_32FarmCode.eventsList3 = function(runtimeScene) {
 
@@ -405,7 +398,7 @@ gdjs.copyArray(runtimeScene.getObjects("Timer"), gdjs.Focus_32FarmCode.GDTimerOb
 
 var objects = [];
 objects.push.apply(objects,gdjs.Focus_32FarmCode.GDTimerObjects1);
-gdjs.Focus_32FarmCode.userFunc0x97a2c8(runtimeScene, objects);
+gdjs.Focus_32FarmCode.userFunc0x8ed4d0(runtimeScene, objects);
 
 }
 
