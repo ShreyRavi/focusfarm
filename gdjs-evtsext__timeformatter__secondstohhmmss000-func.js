@@ -1,35 +1,39 @@
 
-if (typeof gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS !== "undefined") {
-  gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.registeredGdjsCallbacks.forEach(callback =>
+if (typeof gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000 !== "undefined") {
+  gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.registeredGdjsCallbacks.forEach(callback =>
     gdjs._unregisterCallback(callback)
   );
 }
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS = {};
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000 = {};
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0x7ef450 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.userFunc0xa25eb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 var format_time = function (time_second) {
     date = new Date(null);
-    date.setSeconds(time_second);
-    return date.toISOString().substr(11, 8); // HH:MM:SS
+    date.setMilliseconds(1000*time_second);
+    if (time_second >= 3600) {
+        return date.toISOString().substr(11, 12); // MM:SS.000
+    } else {
+        return date.toISOString().substr(14, 9); // HH:MM:SS.000
+    }
 }
 
 eventsFunctionContext.returnValue = format_time(eventsFunctionContext.getArgument("TimeInSeconds"));
 };
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.eventsList0 = function(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.eventsList0 = function(runtimeScene, eventsFunctionContext) {
 
 {
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.userFunc0x7ef450(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.userFunc0xa25eb0(runtimeScene, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
 
 };
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.func = function(runtimeScene, TimeInSeconds, parentEventsFunctionContext) {
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.func = function(runtimeScene, TimeInSeconds, parentEventsFunctionContext) {
 var eventsFunctionContext = {
   _objectsMap: {
 },
@@ -84,10 +88,10 @@ if (argName === "TimeInSeconds") return TimeInSeconds;
 };
 
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.eventsList0(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.eventsList0(runtimeScene, eventsFunctionContext);
 
 
 return "" + eventsFunctionContext.returnValue;
 }
 
-gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS.registeredGdjsCallbacks = [];
+gdjs.evtsExt__TimeFormatter__SecondsToHHMMSS000.registeredGdjsCallbacks = [];
