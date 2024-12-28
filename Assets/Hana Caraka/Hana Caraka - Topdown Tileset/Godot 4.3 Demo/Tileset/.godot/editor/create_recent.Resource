@@ -1,4 +1,0 @@
-TileSet
-SpriteFrames
-AnimatedTexture
-Animation
