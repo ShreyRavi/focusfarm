@@ -1,0 +1,78 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1733366849
+export_presets.cfg::TextFile::-1::1692260348::0::1::::<><>::
+icon.svg::CompressedTexture2D::5933644907652825273::1692057113::1692057146::1::::<><>::
+::res://Scenes/::1733365010
+node_2d.tscn::PackedScene::4725732299616838457::1733365007::0::1::::<><>::uid://bmblwldpd8sp5::::res://Scenes/Tileset.tres<>uid://dnnd1jysyvgyr::::res://Scenes/Tileset 2.tres
+Tileset 2.tres::TileSet::8098783021432528065::1733365010::0::1::::<><>::uid://b4jvhxgfrorcn::::res://Sprites/Dirt/Dirt1.png<>uid://dsk8kcvg2m13o::::res://Sprites/Dirt/Dirt2.png<>uid://m6cx6d4cumkk::::res://Sprites/Spring/Spring1.png<>uid://wvdak86lr34f::::res://Sprites/Spring/Spring2.png<>uid://bmbvri6gy5xw::::res://Sprites/Spring/Spring3.png<>uid://b3pf3w1qotnrs::::res://Sprites/Spring/Spring4.png<>uid://b1pul6qt6pr02::::res://Sprites/Spring/Spring5.png<>uid://nqe7532ljp5f::::res://Sprites/Summer/Summer1.png<>uid://dttcq6lq3x5jx::::res://Sprites/Summer/Summer2.png<>uid://cniulhip3h45d::::res://Sprites/Summer/Summer3.png<>uid://bkmseyxop4k8v::::res://Sprites/Summer/Summer4.png<>uid://cai5dckuu8uih::::res://Sprites/Summer/Summer5.png<>uid://ooluvpggtf6::::res://Sprites/Dirt/Dirt3.png<>uid://hjsgkmpin20t::::res://Sprites/Fall/Fall1.png<>uid://dhy4tkwwdwgi8::::res://Sprites/Fall/Fall2.png<>uid://dftam88y5vah7::::res://Sprites/Fall/Fall3.png<>uid://dfuwk4hjsfgey::::res://Sprites/Fall/Fall4.png<>uid://b8x1gylk58ac7::::res://Sprites/Fall/Fall5.png<>uid://hwpdsxg32818::::res://Sprites/Winter/Winter1.png<>uid://04bjucv56dl::::res://Sprites/Winter/Winter2.png<>uid://du0qf8fpbjjcl::::res://Sprites/Winter/Winter3.png<>uid://bhi2es62fej7c::::res://Sprites/Winter/Winter4.png<>uid://h6tht04pjjsw::::res://Sprites/Winter/Winter5.png<>uid://brarw5wrj36ki::::res://Sprites/Dirt/Dirt4.png<>uid://d1ixijopewk5y::::res://Sprites/Dirt/Dirt5.png<>uid://8rh1po07vx0u::::res://Sprites/Water/Water 1/water 1-1.png<>uid://cwlivrensydgb::::res://Sprites/Water/Water 1/water 1-2.png<>uid://bg4aoo6sqe2ay::::res://Sprites/Water/Water 1/water 1-3.png<>uid://bscmmiema78gr::::res://Sprites/Extras/Dirt Wall.png<>uid://bycv5nqojjmc1::::res://Sprites/Sand/Sand1.png<>uid://b2biisro8yunw::::res://Sprites/Sand/Sand2.png<>uid://5kpbuwj0uqjj::::res://Sprites/Sand/Sand3.png<>uid://jecp3mbog28t::::res://Sprites/Sand/Sand4.png<>uid://cbofpgpycbh5f::::res://Sprites/Sand/Sand5.png<>uid://ds2j7hhqa4qpq::::res://Sprites/Props/Fence.png<>uid://ca5503te60q3b::::res://Sprites/Water/Water 4/water 4-1.png<>uid://b0v3hxy3wjuaq::::res://Sprites/Water/Water 4/water 4-2.png<>uid://setwy3dfran5::::res://Sprites/Props/Bush.png<>uid://daqf6r4s1s65w::::res://Sprites/Props/Flower.png<>uid://bnmhln8n3galf::::res://Sprites/Water/Water 4/water 4-3.png<>uid://co33wwyuylsga::::res://Sprites/Water/Waterfall/Waterfall - c1.png<>uid://d4ffk3h5xcht2::::res://Sprites/Props/Grass.png<>uid://gih42qu0ux6p::::res://Sprites/Water/Waterfall/Waterfall - c2.png<>uid://cnrucimqy4m5n::::res://Sprites/Props/Water Plants.png<>uid://dvygdf1kr2h6u::::res://Sprites/Water/Waterfall/Waterfall - c3.png<>uid://dplrbxdrphukq::::res://Sprites/Props/Tree.png<>uid://ds4ypqarvdl8s::::res://Sprites/Props/Texture.png<>uid://dwwfs2dpu2ifi::::res://Sprites/Props/Stone.png<>uid://lbayayt5rsu::::res://Sprites/Props/Rock.png
+Tileset.tres::TileSet::3231458942568011836::1733365008::0::1::::<><>::uid://b4jvhxgfrorcn::::res://Sprites/Dirt/Dirt1.png<>uid://dsk8kcvg2m13o::::res://Sprites/Dirt/Dirt2.png<>uid://m6cx6d4cumkk::::res://Sprites/Spring/Spring1.png<>uid://wvdak86lr34f::::res://Sprites/Spring/Spring2.png<>uid://bmbvri6gy5xw::::res://Sprites/Spring/Spring3.png<>uid://b3pf3w1qotnrs::::res://Sprites/Spring/Spring4.png<>uid://b1pul6qt6pr02::::res://Sprites/Spring/Spring5.png<>uid://nqe7532ljp5f::::res://Sprites/Summer/Summer1.png<>uid://dttcq6lq3x5jx::::res://Sprites/Summer/Summer2.png<>uid://cniulhip3h45d::::res://Sprites/Summer/Summer3.png<>uid://bkmseyxop4k8v::::res://Sprites/Summer/Summer4.png<>uid://cai5dckuu8uih::::res://Sprites/Summer/Summer5.png<>uid://ooluvpggtf6::::res://Sprites/Dirt/Dirt3.png<>uid://hjsgkmpin20t::::res://Sprites/Fall/Fall1.png<>uid://dhy4tkwwdwgi8::::res://Sprites/Fall/Fall2.png<>uid://dftam88y5vah7::::res://Sprites/Fall/Fall3.png<>uid://dfuwk4hjsfgey::::res://Sprites/Fall/Fall4.png<>uid://b8x1gylk58ac7::::res://Sprites/Fall/Fall5.png<>uid://hwpdsxg32818::::res://Sprites/Winter/Winter1.png<>uid://04bjucv56dl::::res://Sprites/Winter/Winter2.png<>uid://du0qf8fpbjjcl::::res://Sprites/Winter/Winter3.png<>uid://bhi2es62fej7c::::res://Sprites/Winter/Winter4.png<>uid://h6tht04pjjsw::::res://Sprites/Winter/Winter5.png<>uid://brarw5wrj36ki::::res://Sprites/Dirt/Dirt4.png<>uid://d1ixijopewk5y::::res://Sprites/Dirt/Dirt5.png<>uid://8rh1po07vx0u::::res://Sprites/Water/Water 1/water 1-1.png<>uid://cwlivrensydgb::::res://Sprites/Water/Water 1/water 1-2.png<>uid://bg4aoo6sqe2ay::::res://Sprites/Water/Water 1/water 1-3.png<>uid://bscmmiema78gr::::res://Sprites/Extras/Dirt Wall.png<>uid://c21m6suxwxgjp::::res://Sprites/Water/water full tiles.png<>uid://bycv5nqojjmc1::::res://Sprites/Sand/Sand1.png<>uid://b2biisro8yunw::::res://Sprites/Sand/Sand2.png<>uid://5kpbuwj0uqjj::::res://Sprites/Sand/Sand3.png<>uid://jecp3mbog28t::::res://Sprites/Sand/Sand4.png<>uid://cbofpgpycbh5f::::res://Sprites/Sand/Sand5.png<>uid://ds2j7hhqa4qpq::::res://Sprites/Props/Fence.png<>uid://ca5503te60q3b::::res://Sprites/Water/Water 4/water 4-1.png<>uid://b0v3hxy3wjuaq::::res://Sprites/Water/Water 4/water 4-2.png<>uid://setwy3dfran5::::res://Sprites/Props/Bush.png<>uid://daqf6r4s1s65w::::res://Sprites/Props/Flower.png<>uid://bnmhln8n3galf::::res://Sprites/Water/Water 4/water 4-3.png<>uid://co33wwyuylsga::::res://Sprites/Water/Waterfall/Waterfall - c1.png<>uid://d4ffk3h5xcht2::::res://Sprites/Props/Grass.png<>uid://gih42qu0ux6p::::res://Sprites/Water/Waterfall/Waterfall - c2.png<>uid://cnrucimqy4m5n::::res://Sprites/Props/Water Plants.png<>uid://dvygdf1kr2h6u::::res://Sprites/Water/Waterfall/Waterfall - c3.png<>uid://dplrbxdrphukq::::res://Sprites/Props/Tree.png<>uid://ds4ypqarvdl8s::::res://Sprites/Props/Texture.png<>uid://dwwfs2dpu2ifi::::res://Sprites/Props/Stone.png<>uid://lbayayt5rsu::::res://Sprites/Props/Rock.png
+::res://Sprites/::1731551562
+::res://Sprites/Dirt/::1731134513
+Dirt1.png::CompressedTexture2D::4441765323944352821::1730971692::1731134461::1::::<><>::
+Dirt2.png::CompressedTexture2D::8445326670601615422::1730963064::1731134461::1::::<><>::
+Dirt3.png::CompressedTexture2D::29772053786224197::1730962625::1731134461::1::::<><>::
+Dirt4.png::CompressedTexture2D::3580704112354356584::1730963064::1731134461::1::::<><>::
+Dirt5.png::CompressedTexture2D::9002098279910658316::1730962625::1731134461::1::::<><>::
+::res://Sprites/Extras/::1731552245
+Dirt Wall.png::CompressedTexture2D::3654699085038399841::1731552239::1731552245::1::::<><>::
+Stairs.png::CompressedTexture2D::1726230304066766048::1730964133::1731134461::1::::<><>::
+Tufts and Lumps.png::CompressedTexture2D::8051304269179947447::1731489073::1731490017::1::::<><>::
+::res://Sprites/Fall/::1731134461
+Fall1.png::CompressedTexture2D::511005470349909913::1730962228::1731134461::1::::<><>::
+Fall2.png::CompressedTexture2D::7701924305741043817::1730962228::1731134461::1::::<><>::
+Fall3.png::CompressedTexture2D::7549452661503925974::1730962228::1731134461::1::::<><>::
+Fall4.png::CompressedTexture2D::7552848990554533344::1730962228::1731134461::1::::<><>::
+Fall5.png::CompressedTexture2D::4751723846715895500::1730962228::1731134461::1::::<><>::
+::res://Sprites/Props/::1733364394
+Bridge horizontal.png::CompressedTexture2D::6127731555492113704::1731489244::1731490017::1::::<><>::
+Bridge vertical.png::CompressedTexture2D::1653165708933456829::1731489207::1731490017::1::::<><>::
+Bush.png::CompressedTexture2D::1272850910787876240::1731489368::1731490017::1::::<><>::
+Fence.png::CompressedTexture2D::8479003413468562422::1731490576::1731490756::1::::<><>::
+Flower.png::CompressedTexture2D::7192651978268750910::1730965029::1731490017::1::::<><>::
+Grass.png::CompressedTexture2D::9205383331116743229::1731489487::1731490017::1::::<><>::
+Other 2.png::CompressedTexture2D::3103547645260415560::1731489518::1731490017::1::::<><>::
+Other.png::CompressedTexture2D::7847084005121643375::1731556394::1733364394::1::::<><>::
+Pavement.png::CompressedTexture2D::5051262667322647562::1730965285::1731490017::1::::<><>::
+Rock.png::CompressedTexture2D::22770133964867420::1731489580::1731490017::1::::<><>::
+Stone.png::CompressedTexture2D::8749170074433646986::1731489633::1731490017::1::::<><>::
+Texture.png::CompressedTexture2D::8484013027340787496::1731489693::1731490017::1::::<><>::
+Tree.png::CompressedTexture2D::8235838049079593660::1731489769::1731490017::1::::<><>::
+Water Plants.png::CompressedTexture2D::5721609107427426081::1731465601::1731490017::1::::<><>::
+::res://Sprites/Sand/::1731134461
+Sand1.png::CompressedTexture2D::4076411025348153638::1730962590::1731134461::1::::<><>::
+Sand2.png::CompressedTexture2D::4284084834330545648::1730962590::1731134461::1::::<><>::
+Sand3.png::CompressedTexture2D::2127222712262803275::1730962590::1731134461::1::::<><>::
+Sand4.png::CompressedTexture2D::640106813908506257::1730962590::1731134461::1::::<><>::
+Sand5.png::CompressedTexture2D::4872262210858815493::1730962590::1731134461::1::::<><>::
+::res://Sprites/Spring/::1731134461
+Spring1.png::CompressedTexture2D::906425975456955182::1730962138::1731134461::1::::<><>::
+Spring2.png::CompressedTexture2D::1587689221486213671::1730962138::1731134461::1::::<><>::
+Spring3.png::CompressedTexture2D::95060502024401692::1730962138::1731134461::1::::<><>::
+Spring4.png::CompressedTexture2D::4383028755487129728::1730962138::1731134461::1::::<><>::
+Spring5.png::CompressedTexture2D::4243531922027157497::1730962138::1731134461::1::::<><>::
+::res://Sprites/Summer/::1731134461
+Summer1.png::CompressedTexture2D::945786644932256149::1730962186::1731134461::1::::<><>::
+Summer2.png::CompressedTexture2D::8532224910199091705::1730962186::1731134461::1::::<><>::
+Summer3.png::CompressedTexture2D::5703045721042529227::1730962186::1731134461::1::::<><>::
+Summer4.png::CompressedTexture2D::3114182998915756663::1730962186::1731134461::1::::<><>::
+Summer5.png::CompressedTexture2D::4791183378014889007::1730962186::1731134461::1::::<><>::
+::res://Sprites/Water/::1733364394
+water full tiles.png::CompressedTexture2D::6722398908134596305::1733364044::1733364394::1::::<><>::
+::res://Sprites/Water/Water 1/::1733364394
+water 1-1.png::CompressedTexture2D::2351798522121992586::1733364009::1733364394::1::::<><>::
+water 1-2.png::CompressedTexture2D::6340228220023538265::1733364009::1733364394::1::::<><>::
+water 1-3.png::CompressedTexture2D::2867446485558943780::1733364009::1733364394::1::::<><>::
+::res://Sprites/Water/Water 4/::1733366906
+water 4-1.png::CompressedTexture2D::4836640354867869809::1733367082::1733367090::1::::<><>::
+water 4-2.png::CompressedTexture2D::4186207530248288648::1733367082::1733367090::1::::<><>::
+water 4-3.png::CompressedTexture2D::3324093581128970187::1733367082::1733367090::1::::<><>::
+::res://Sprites/Water/Waterfall/::1731490017
+Waterfall - c1.png::CompressedTexture2D::5815028312225940972::1731488752::1731490017::1::::<><>::
+Waterfall - c2.png::CompressedTexture2D::438126334623534905::1731488752::1731490017::1::::<><>::
+Waterfall - c3.png::CompressedTexture2D::8683142796173539190::1731488752::1731490017::1::::<><>::
+::res://Sprites/Winter/::1731134461
+Winter1.png::CompressedTexture2D::537655309590687793::1730962267::1731134461::1::::<><>::
+Winter2.png::CompressedTexture2D::53372526162015341::1730962267::1731134461::1::::<><>::
+Winter3.png::CompressedTexture2D::8615630510223041899::1730962267::1731134461::1::::<><>::
+Winter4.png::CompressedTexture2D::2895905107714966390::1730962267::1731134461::1::::<><>::
+Winter5.png::CompressedTexture2D::556484777163777078::1730962267::1731134461::1::::<><>::

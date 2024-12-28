@@ -1,0 +1,21 @@
+
+Tutorial
+1. Copy 2d-extras-master to [project name]\Packages if you haven't import it
+   via package manager
+   
+2. Import Mining Tileset.unitypackage
+
+3. Create a tilemap [2D Object -> Tilemap -> Rectangular]
+
+4. Open Tile Palette [Window -> 2D -> Tile Palette]
+
+5. Select a tile, use a brush, and draw the map as you want to make it.
+
+6. Only your imagination can set a limit!
+
+
+Unity Rule Tiles Github
+https://github.com/Unity-Technologies/2d-extras
+
+more info about ExtendedRuleTile.cs 
+https://forum.unity.com/threads/tileset-rules-with-multiple-tilesets.511230

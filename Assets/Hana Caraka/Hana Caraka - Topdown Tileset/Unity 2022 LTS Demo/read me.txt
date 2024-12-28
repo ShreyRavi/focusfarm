@@ -1,0 +1,19 @@
+
+Tutorial
+1. Unity has added the 2D Tilemap Extras by default. If not, install it via Package Manager.
+
+2. Import Hana Caraka - Topdown Tileset.unitypackage
+
+3. Create a new tilemap [2D Object -> Tilemap -> Rectangular]
+
+4. Sometimes, you have to adjust the properties of Tilemap Renderer [for more info, pls read the documentation]
+
+5. Open Tile Palette [Window -> 2D -> Tile Palette]
+
+6. Select a tile, use a brush, and draw the map as you want to make it.
+
+7. Only your imagination can set a limit!
+
+
+more info about ExtendedRuleTile.cs 
+https://forum.unity.com/threads/tileset-rules-with-multiple-tilesets.511230
