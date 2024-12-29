@@ -365,7 +365,7 @@ gdjs.copyArray(runtimeScene.getObjects("Coin_Count"), gdjs.Focus_32FarmCode.GDCo
 }
 
 
-};gdjs.Focus_32FarmCode.userFunc0xb568d0 = function GDJSInlineCode(runtimeScene, objects) {
+};gdjs.Focus_32FarmCode.userFunc0x98bc18 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 // Create the root video element
 var video = document.createElement('video');
@@ -400,7 +400,7 @@ gdjs.copyArray(runtimeScene.getObjects("Timer"), gdjs.Focus_32FarmCode.GDTimerOb
 
 var objects = [];
 objects.push.apply(objects,gdjs.Focus_32FarmCode.GDTimerObjects1);
-gdjs.Focus_32FarmCode.userFunc0xb568d0(runtimeScene, objects);
+gdjs.Focus_32FarmCode.userFunc0x98bc18(runtimeScene, objects);
 
 }
 
@@ -527,7 +527,7 @@ gdjs.Focus_32FarmCode.eventsList3(runtimeScene);} //Subevents end.
 
 
 };gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDStart_95959595ButtonObjects1Objects = Hashtable.newFrom({"Start_Button": gdjs.Focus_32FarmCode.GDStart_9595ButtonObjects1});
-gdjs.Focus_32FarmCode.asyncCallback11275924 = function (runtimeScene, asyncObjectsList) {
+gdjs.Focus_32FarmCode.asyncCallback10280012 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
 gdjs.Focus_32FarmCode.localVariables.length = 0;
 }
@@ -540,7 +540,7 @@ gdjs.Focus_32FarmCode.eventsList5 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "dd4407b8-6b74-47b8-8b90-7cf5131e035f", runtimeScene.getGame().getVariables().getFromIndex(3).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(17).getAsString()), (runtimeScene) => (gdjs.Focus_32FarmCode.asyncCallback11275924(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "dd4407b8-6b74-47b8-8b90-7cf5131e035f", runtimeScene.getGame().getVariables().getFromIndex(3).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(17).getAsString()), (runtimeScene) => (gdjs.Focus_32FarmCode.asyncCallback10280012(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -886,7 +886,7 @@ for(var i = 0, len = gdjs.Focus_32FarmCode.GDCorn_9595IconObjects3.length ;i < l
 
 };gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDSell_95959595ButtonObjects1Objects = Hashtable.newFrom({"Sell_Button": gdjs.Focus_32FarmCode.GDSell_9595ButtonObjects1});
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDEggplant_95959595IconObjects2ObjectsGDgdjs_9546Focus_959532FarmCode_9546GDTomato_95959595IconObjects2ObjectsGDgdjs_9546Focus_959532FarmCode_9546GDPumpkin_95959595IconObjects2ObjectsGDgdjs_9546Focus_959532FarmCode_9546GDCoin_95959595IconObjects2ObjectsGDgdjs_9546Focus_959532FarmCode_9546GDCorn_95959595IconObjects2Objects = Hashtable.newFrom({"Eggplant_Icon": gdjs.Focus_32FarmCode.GDEggplant_9595IconObjects2, "Tomato_Icon": gdjs.Focus_32FarmCode.GDTomato_9595IconObjects2, "Pumpkin_Icon": gdjs.Focus_32FarmCode.GDPumpkin_9595IconObjects2, "Coin_Icon": gdjs.Focus_32FarmCode.GDCoin_9595IconObjects2, "Corn_Icon": gdjs.Focus_32FarmCode.GDCorn_9595IconObjects2});
-gdjs.Focus_32FarmCode.asyncCallback11979644 = function (runtimeScene, asyncObjectsList) {
+gdjs.Focus_32FarmCode.asyncCallback8687372 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
 gdjs.Focus_32FarmCode.localVariables.length = 0;
 }
@@ -899,7 +899,7 @@ gdjs.Focus_32FarmCode.eventsList10 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "dd4407b8-6b74-47b8-8b90-7cf5131e035f", runtimeScene.getGame().getVariables().getFromIndex(3).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(17).getAsString()), (runtimeScene) => (gdjs.Focus_32FarmCode.asyncCallback11979644(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "dd4407b8-6b74-47b8-8b90-7cf5131e035f", runtimeScene.getGame().getVariables().getFromIndex(3).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(17).getAsString()), (runtimeScene) => (gdjs.Focus_32FarmCode.asyncCallback8687372(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1001,7 +1001,7 @@ gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDInfo_95959595Mo
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDInfo_95959595ButtonObjects1Objects = Hashtable.newFrom({"Info_Button": gdjs.Focus_32FarmCode.GDInfo_9595ButtonObjects1});
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDInfo_95959595Username_95959595TextObjects1Objects = Hashtable.newFrom({"Info_Username_Text": gdjs.Focus_32FarmCode.GDInfo_9595Username_9595TextObjects1});
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDOK_95959595Username_95959595TextObjects1Objects = Hashtable.newFrom({"OK_Username_Text": gdjs.Focus_32FarmCode.GDOK_9595Username_9595TextObjects1});
-gdjs.Focus_32FarmCode.asyncCallback9221500 = function (runtimeScene, asyncObjectsList) {
+gdjs.Focus_32FarmCode.asyncCallback8314004 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
 gdjs.Focus_32FarmCode.localVariables.length = 0;
 }
@@ -1014,7 +1014,7 @@ gdjs.Focus_32FarmCode.eventsList13 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "dd4407b8-6b74-47b8-8b90-7cf5131e035f", runtimeScene.getGame().getVariables().getFromIndex(3).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(17).getAsString()), (runtimeScene) => (gdjs.Focus_32FarmCode.asyncCallback9221500(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.leaderboards.savePlayerScore(runtimeScene, "dd4407b8-6b74-47b8-8b90-7cf5131e035f", runtimeScene.getGame().getVariables().getFromIndex(3).getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(17).getAsString()), (runtimeScene) => (gdjs.Focus_32FarmCode.asyncCallback8314004(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -1394,10 +1394,13 @@ gdjs.copyArray(runtimeScene.getObjects("Focused_Time_Text"), gdjs.Focus_32FarmCo
 
 {
 
+gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1.length = 0;
+
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
+{gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final.length = 0;
+let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
 isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
@@ -1430,6 +1433,27 @@ if(isConditionTrue_1) {
 }
 }
 {
+gdjs.copyArray(runtimeScene.getObjects("SquareGreenSlider"), gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2);
+{let isConditionTrue_2 = false;
+isConditionTrue_2 = false;
+isConditionTrue_2 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
+if (isConditionTrue_2) {
+isConditionTrue_2 = false;
+{isConditionTrue_2 = (((( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2.length === 0 ) ? 0 :gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 60) - (gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "TimingOn")) <= 10);
+}
+}
+isConditionTrue_1 = isConditionTrue_2;
+}
+if(isConditionTrue_1) {
+    isConditionTrue_0 = true;
+    for (let j = 0, jLen = gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2.length; j < jLen ; ++j) {
+        if ( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final.indexOf(gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2[j]) === -1 )
+            gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final.push(gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2[j]);
+    }
+}
+}
+{
+gdjs.copyArray(gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final, gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1);
 }
 }
 if (isConditionTrue_0) {
