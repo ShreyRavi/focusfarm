@@ -1734,13 +1734,10 @@ gdjs.copyArray(runtimeScene.getObjects("Focused_Time_Text"), gdjs.Focus_32FarmCo
 
 {
 
-gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1.length = 0;
-
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final.length = 0;
-let isConditionTrue_1 = false;
+{let isConditionTrue_1 = false;
 isConditionTrue_0 = false;
 {
 isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
@@ -1773,26 +1770,6 @@ if(isConditionTrue_1) {
 }
 }
 {
-gdjs.copyArray(runtimeScene.getObjects("SquareGreenSlider"), gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2);
-{let isConditionTrue_2 = false;
-isConditionTrue_2 = false;
-isConditionTrue_2 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
-if (isConditionTrue_2) {
-isConditionTrue_2 = false;
-{isConditionTrue_2 = (((( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2.length === 0 ) ? 0 :gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 60) - (gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "TimingOn")) <= 3);
-}
-}
-isConditionTrue_1 = isConditionTrue_2;
-}
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-    for (let j = 0, jLen = gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2.length; j < jLen ; ++j) {
-        if ( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final.indexOf(gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2[j]) === -1 )
-            gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final.push(gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2[j]);
-    }
-}
-}
-{
 {isConditionTrue_1 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - runtimeScene.getGame().getVariables().getFromIndex(2).getChild("X").getAsNumber()) >= 10);
 }
 if(isConditionTrue_1) {
@@ -1807,7 +1784,6 @@ if(isConditionTrue_1) {
 }
 }
 {
-gdjs.copyArray(gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1_1final, gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1);
 }
 }
 if (isConditionTrue_0) {
