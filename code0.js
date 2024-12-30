@@ -1715,63 +1715,6 @@ gdjs.copyArray(runtimeScene.getObjects("Focused_Time_Text"), gdjs.Focus_32FarmCo
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_0 = false;
-{
-isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Left");
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Middle");
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-isConditionTrue_1 = gdjs.evtTools.input.isMouseButtonPressed(runtimeScene, "Right");
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-isConditionTrue_1 = gdjs.evtTools.input.hasAnyTouchOrMouseStarted(runtimeScene);
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-isConditionTrue_1 = gdjs.evtTools.input.anyKeyPressed(runtimeScene);
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-{isConditionTrue_1 = (Math.abs(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0) - runtimeScene.getGame().getVariables().getFromIndex(3).getChild("X").getAsNumber()) >= 10);
-}
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-{isConditionTrue_1 = (Math.abs(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0) - runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Y").getAsNumber()) >= 10);
-}
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-}
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(20).setBoolean(false);
-}{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "Time_Out_Timer");
-}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("X").setNumber(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0));
-}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Y").setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
-}}
 
 }
 
@@ -1779,32 +1722,6 @@ if (isConditionTrue_0) {
 {
 
 
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-{let isConditionTrue_1 = false;
-isConditionTrue_0 = false;
-{
-{let isConditionTrue_2 = false;
-isConditionTrue_2 = false;
-isConditionTrue_2 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(0), true, false);
-if (isConditionTrue_2) {
-isConditionTrue_2 = false;
-isConditionTrue_2 = gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSecondsOrNaN(runtimeScene, "Time_Out_Timer") >= runtimeScene.getGame().getVariables().getFromIndex(27).getAsNumber();
-}
-isConditionTrue_1 = isConditionTrue_2;
-}
-if(isConditionTrue_1) {
-    isConditionTrue_0 = true;
-}
-}
-{
-}
-}
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(20).setBoolean(true);
-}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("X").setNumber(gdjs.evtTools.input.getCursorX(runtimeScene, "", 0));
-}{runtimeScene.getGame().getVariables().getFromIndex(3).getChild("Y").setNumber(gdjs.evtTools.input.getCursorY(runtimeScene, "", 0));
-}}
 
 }
 
@@ -1844,16 +1761,6 @@ gdjs.copyArray(runtimeScene.getObjects("Sleep_Button"), gdjs.Focus_32FarmCode.GD
 {
 
 
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
 
 }
 
