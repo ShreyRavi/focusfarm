@@ -2336,10 +2336,6 @@ if (isConditionTrue_2) {
 isConditionTrue_2 = false;
 {isConditionTrue_2 = (((( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2.length === 0 ) ? 0 :gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects2[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 60) - runtimeScene.getGame().getVariables().getFromIndex(22).getAsNumber() <= 0);
 }
-if (isConditionTrue_2) {
-isConditionTrue_2 = false;
-isConditionTrue_2 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(19), false, false);
-}
 }
 }
 isConditionTrue_1 = isConditionTrue_2;
