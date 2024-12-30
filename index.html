@@ -35,11 +35,9 @@
 		if (!wakeLockEnabled) {
 			noSleep.enable(); 
 			wakeLockEnabled = true;
-			toggleEl.value = "Wake Lock is enabled";
 		} else {
 			noSleep.disable(); 
 			wakeLockEnabled = false;
-			toggleEl.value = "Wake Lock is disabled";
 		}
 		});
 	</script>
