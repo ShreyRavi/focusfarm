@@ -423,7 +423,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(((( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1.length === 0 ) ? 0 :gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 60) - 2);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(((( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1.length === 0 ) ? 0 :gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 60) - 5);
 }}
 
 }
