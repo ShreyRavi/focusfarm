@@ -423,7 +423,7 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1 */
-{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(((( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1.length === 0 ) ? 0 :gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 60) - 2);
+{runtimeScene.getGame().getVariables().getFromIndex(22).setNumber(((( gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1.length === 0 ) ? 0 :gdjs.Focus_32FarmCode.GDSquareGreenSliderObjects1[0].Value((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) * 60) - 5);
 }}
 
 }
@@ -672,21 +672,6 @@ gdjs.Focus_32FarmCode.eventsList9 = function(runtimeScene) {
 
 {
 
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(12), false, false);
-if (isConditionTrue_0) {
-{runtimeScene.getGame().getVariables().getFromIndex(13).setBoolean(true);
-}}
-
-}
-
-
-};gdjs.Focus_32FarmCode.eventsList10 = function(runtimeScene) {
-
-{
-
 gdjs.copyArray(gdjs.Focus_32FarmCode.GDCornObjects3, gdjs.Focus_32FarmCode.GDCornObjects4);
 
 gdjs.copyArray(gdjs.Focus_32FarmCode.GDEggplantObjects3, gdjs.Focus_32FarmCode.GDEggplantObjects4);
@@ -782,15 +767,12 @@ for(var i = 0, len = gdjs.Focus_32FarmCode.GDCorn_9595IconObjects4.length ;i < l
     gdjs.Focus_32FarmCode.GDCorn_9595IconObjects4[i].addForceTowardPosition(runtimeScene.getGame().getVariables().getFromIndex(10).getChild((( gdjs.Focus_32FarmCode.GDCornObjects4.length === 0 ) ? (( gdjs.Focus_32FarmCode.GDPumpkinObjects4.length === 0 ) ? (( gdjs.Focus_32FarmCode.GDEggplantObjects4.length === 0 ) ? (( gdjs.Focus_32FarmCode.GDTomatoObjects4.length === 0 ) ? "" :gdjs.Focus_32FarmCode.GDTomatoObjects4[0].getName()) :gdjs.Focus_32FarmCode.GDEggplantObjects4[0].getName()) :gdjs.Focus_32FarmCode.GDPumpkinObjects4[0].getName()) :gdjs.Focus_32FarmCode.GDCornObjects4[0].getName())).getChild("X").getAsNumber(), runtimeScene.getGame().getVariables().getFromIndex(10).getChild((( gdjs.Focus_32FarmCode.GDCornObjects4.length === 0 ) ? (( gdjs.Focus_32FarmCode.GDPumpkinObjects4.length === 0 ) ? (( gdjs.Focus_32FarmCode.GDEggplantObjects4.length === 0 ) ? (( gdjs.Focus_32FarmCode.GDTomatoObjects4.length === 0 ) ? "" :gdjs.Focus_32FarmCode.GDTomatoObjects4[0].getName()) :gdjs.Focus_32FarmCode.GDEggplantObjects4[0].getName()) :gdjs.Focus_32FarmCode.GDPumpkinObjects4[0].getName()) :gdjs.Focus_32FarmCode.GDCornObjects4[0].getName())).getChild("Y").getAsNumber(), 500, 1);
 }
 }{runtimeScene.getGame().getVariables().getFromIndex(12).setBoolean(true);
-}
-{ //Subevents
-gdjs.Focus_32FarmCode.eventsList9(runtimeScene);} //End of subevents
-}
+}}
 
 }
 
 
-};gdjs.Focus_32FarmCode.eventsList11 = function(runtimeScene) {
+};gdjs.Focus_32FarmCode.eventsList10 = function(runtimeScene) {
 
 {
 
@@ -843,9 +825,22 @@ let isConditionTrue_0 = false;
 if (true) {
 
 { //Subevents: 
-gdjs.Focus_32FarmCode.eventsList10(runtimeScene);} //Subevents end.
+gdjs.Focus_32FarmCode.eventsList9(runtimeScene);} //Subevents end.
 }
 }
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.variable.getVariableBoolean(runtimeScene.getGame().getVariables().getFromIndex(12), false, false);
+if (isConditionTrue_0) {
+{runtimeScene.getGame().getVariables().getFromIndex(13).setBoolean(true);
+}}
 
 }
 
@@ -895,7 +890,7 @@ for(var i = 0, len = gdjs.Focus_32FarmCode.GDCornObjects1.length ;i < len;++i) {
 }
 
 
-};gdjs.Focus_32FarmCode.eventsList12 = function(runtimeScene) {
+};gdjs.Focus_32FarmCode.eventsList11 = function(runtimeScene) {
 
 {
 
@@ -994,7 +989,7 @@ gdjs.Focus_32FarmCode.asyncCallback9842268 = function (runtimeScene, asyncObject
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
 gdjs.Focus_32FarmCode.localVariables.length = 0;
 }
-gdjs.Focus_32FarmCode.eventsList13 = function(runtimeScene) {
+gdjs.Focus_32FarmCode.eventsList12 = function(runtimeScene) {
 
 {
 
@@ -1010,7 +1005,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.leaderboards.savePlaye
 }
 
 
-};gdjs.Focus_32FarmCode.eventsList14 = function(runtimeScene) {
+};gdjs.Focus_32FarmCode.eventsList13 = function(runtimeScene) {
 
 {
 
@@ -1074,7 +1069,7 @@ for(var i = 0, len = gdjs.Focus_32FarmCode.GDCorn_9595IconObjects2.length ;i < l
 }{gdjs.evtTools.storage.writeNumberInJSONFile("Total_Planted", "Eggplant", runtimeScene.getGame().getVariables().getFromIndex(6).getChild("Eggplant").getAsNumber());
 }
 { //Subevents: 
-gdjs.Focus_32FarmCode.eventsList13(runtimeScene);} //Subevents end.
+gdjs.Focus_32FarmCode.eventsList12(runtimeScene);} //Subevents end.
 }
 }
 
@@ -1085,7 +1080,7 @@ gdjs.Focus_32FarmCode.eventsList13(runtimeScene);} //Subevents end.
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDCancel_95959595Confirmation_95959595TextObjects1Objects = Hashtable.newFrom({"Cancel_Confirmation_Text": gdjs.Focus_32FarmCode.GDCancel_9595Confirmation_9595TextObjects1});
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDOK_95959595Wake_95959595Up_95959595TextObjects1Objects = Hashtable.newFrom({"OK_Wake_Up_Text": gdjs.Focus_32FarmCode.GDOK_9595Wake_9595Up_9595TextObjects1});
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDOK_95959595Success_95959595TextObjects1Objects = Hashtable.newFrom({"OK_Success_Text": gdjs.Focus_32FarmCode.GDOK_9595Success_9595TextObjects1});
-gdjs.Focus_32FarmCode.eventsList15 = function(runtimeScene) {
+gdjs.Focus_32FarmCode.eventsList14 = function(runtimeScene) {
 
 {
 
@@ -1110,7 +1105,7 @@ gdjs.Focus_32FarmCode.asyncCallback9668020 = function (runtimeScene, asyncObject
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Focus_32FarmCode.localVariables);
 gdjs.Focus_32FarmCode.localVariables.length = 0;
 }
-gdjs.Focus_32FarmCode.eventsList16 = function(runtimeScene) {
+gdjs.Focus_32FarmCode.eventsList15 = function(runtimeScene) {
 
 {
 
@@ -1132,7 +1127,7 @@ gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDShop_95959595Ic
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDCoin_95959595IconObjects1Objects = Hashtable.newFrom({"Coin_Icon": gdjs.Focus_32FarmCode.GDCoin_9595IconObjects1});
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDLeaderboard_95959595IconObjects1Objects = Hashtable.newFrom({"Leaderboard_Icon": gdjs.Focus_32FarmCode.GDLeaderboard_9595IconObjects1});
 gdjs.Focus_32FarmCode.mapOfGDgdjs_9546Focus_959532FarmCode_9546GDLeaderboard_95959595IconObjects1Objects = Hashtable.newFrom({"Leaderboard_Icon": gdjs.Focus_32FarmCode.GDLeaderboard_9595IconObjects1});
-gdjs.Focus_32FarmCode.eventsList17 = function(runtimeScene) {
+gdjs.Focus_32FarmCode.eventsList16 = function(runtimeScene) {
 
 {
 
@@ -2537,7 +2532,7 @@ gdjs.Focus_32FarmCode.GDCornObjects1.length = k;
 if (isConditionTrue_0) {
 
 { //Subevents
-gdjs.Focus_32FarmCode.eventsList11(runtimeScene);} //End of subevents
+gdjs.Focus_32FarmCode.eventsList10(runtimeScene);} //End of subevents
 }
 
 }
@@ -2599,7 +2594,7 @@ let isConditionTrue_0 = false;
 if (true) {
 
 { //Subevents: 
-gdjs.Focus_32FarmCode.eventsList12(runtimeScene);} //Subevents end.
+gdjs.Focus_32FarmCode.eventsList11(runtimeScene);} //Subevents end.
 }
 }
 
@@ -2632,7 +2627,7 @@ if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(6).getChild("Coin").add((runtimeScene.getGame().getVariables().getFromIndex(6).getChild("Corn").getAsNumber() * runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Corn").getAsNumber()) + (runtimeScene.getGame().getVariables().getFromIndex(6).getChild("Tomato").getAsNumber() * runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Tomato").getAsNumber()) + (runtimeScene.getGame().getVariables().getFromIndex(6).getChild("Eggplant").getAsNumber() * runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Eggplant").getAsNumber()) + (runtimeScene.getGame().getVariables().getFromIndex(6).getChild("Pumpkin").getAsNumber() * runtimeScene.getGame().getVariables().getFromIndex(7).getChild("Pumpkin").getAsNumber()));
 }
 { //Subevents
-gdjs.Focus_32FarmCode.eventsList14(runtimeScene);} //End of subevents
+gdjs.Focus_32FarmCode.eventsList13(runtimeScene);} //End of subevents
 }
 
 }
@@ -2830,7 +2825,7 @@ if (isConditionTrue_0) {
 {runtimeScene.getGame().getVariables().getFromIndex(12).setBoolean(false);
 }
 { //Subevents
-gdjs.Focus_32FarmCode.eventsList15(runtimeScene);} //End of subevents
+gdjs.Focus_32FarmCode.eventsList14(runtimeScene);} //End of subevents
 }
 
 }
@@ -3072,7 +3067,7 @@ gdjs.copyArray(runtimeScene.getObjects("Username_Input"), gdjs.Focus_32FarmCode.
 }{gdjs.evtTools.storage.writeStringInJSONFile("Username", "Username", runtimeScene.getGame().getVariables().getFromIndex(18).getAsString());
 }
 { //Subevents
-gdjs.Focus_32FarmCode.eventsList16(runtimeScene);} //End of subevents
+gdjs.Focus_32FarmCode.eventsList15(runtimeScene);} //End of subevents
 }
 
 }
@@ -3614,7 +3609,7 @@ gdjs.Focus_32FarmCode.GDVersion_9595TextObjects3.length = 0;
 gdjs.Focus_32FarmCode.GDVersion_9595TextObjects4.length = 0;
 gdjs.Focus_32FarmCode.GDVersion_9595TextObjects5.length = 0;
 
-gdjs.Focus_32FarmCode.eventsList17(runtimeScene);
+gdjs.Focus_32FarmCode.eventsList16(runtimeScene);
 gdjs.Focus_32FarmCode.GDDirtObjects1.length = 0;
 gdjs.Focus_32FarmCode.GDDirtObjects2.length = 0;
 gdjs.Focus_32FarmCode.GDDirtObjects3.length = 0;
